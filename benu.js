@@ -1,3 +1,14 @@
+define( "benuModule",
+	[ 
+		"angular", 
+		"jquery",
+		"underscore" 
+	],
+	function( ){
+		var benuModule = angular.module( "benu", [ ] );
+		return benuModule;
+	} );
+
 define( [ 
 		"angular", 
 		"jquery",
@@ -26,6 +37,3 @@ define( [
 
 		return Benu;
 	} );
-
-
-
